@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: salome-portfolio-api
+    env: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: CORS_ORIGIN
+        value: https://salome-portfolio-beryl.vercel.app
