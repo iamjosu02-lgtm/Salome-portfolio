@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://salome-portfolio-api.onrender.com';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://salome-portfolio.onrender.com';
 
 const WELCOME_ROTATION = ['wall3.mp4', 'wall6.mp4', 'wall5.mp4', 'wall1.mp4'];
 
