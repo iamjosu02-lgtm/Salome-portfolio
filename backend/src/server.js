@@ -28,9 +28,9 @@ app.get('/api/profile', (req, res) => {
     role: 'Data Science Student',
     focus: ['Machine Learning', 'Cloud Computing', 'Frontend Development'],
     bio: [
-      'Salome is a dedicated Data Science learner with strong interest in machine learning, cloud technologies, and modern web development.',
-      'She enjoys building polished digital experiences, working with data, and delivering practical solutions that create real value.',
-      'Her focus is to grow into a professional who combines technical depth, creativity, and consistent execution in every project.'
+      'I am dedicated Data Science learner with strong interest in machine learning, cloud technologies, and modern web development.',
+      'I am enjoying in building polished digital experiences, working with data, and delivering practical solutions that create real value.',
+      'My focus is to grow into a professional who combines technical depth, creativity, and consistent execution in every project.'
     ]
   });
 });
